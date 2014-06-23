@@ -1,5 +1,10 @@
 #! /bin/bash
 
+function mb_ev()
+{
+source ~/.env/.mb_environment
+}
+
 function te_env()
 {
 source ~/.env/.testeffect_environment
